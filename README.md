@@ -1,5 +1,3 @@
-
-
 # SC-900 Flashcards
 <meta name="description" content="SC-900 Microsoft Security, Compliance, and Identity exam flashcards. Study questions and answers to help you prepare for the SC-900 certification exam.">
 
