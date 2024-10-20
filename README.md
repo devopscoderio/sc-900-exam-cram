@@ -1,7 +1,7 @@
-<title>SC-900 Flashcards | Microsoft Security, Compliance, and Identity Exam Prep</title>
-<meta name="description" content="SC-900 Microsoft Security, Compliance, and Identity exam flashcards. Study questions and answers to help you prepare for the SC-900 certification exam.">
+
 
 # SC-900 Flashcards
+<meta name="description" content="SC-900 Microsoft Security, Compliance, and Identity exam flashcards. Study questions and answers to help you prepare for the SC-900 certification exam.">
 
 This repository contains flashcards for the SC 900 Microsoft Security, Compliance, and Identity Fundamentals exam. Each question is numbered, and you can click to reveal the answer.
 
