@@ -1,0 +1,597 @@
+{
+  "header": "SC-900 Flashcards",
+  "description": "This repository contains flashcards for the SC 900 Microsoft Security, Compliance, and Identity Fundamentals exam. Each question is numbered, and you can click to reveal the answer.",
+  "subhead": "Questions",
+  "questions": [
+    {
+      "question": "Which Security Model assumes everything is open?",
+      "answer": "Zero Trust"
+    },
+    {
+      "question": "What should you use for storing passwords in a protected format?",
+      "answer": "Hashing"
+    },
+    {
+      "question": "Which pillar of an identity infrastructure is responsible for defining the level of access a user has over the resources on a network?",
+      "answer": "Authorization"
+    },
+    {
+      "question": "Two characteristics of an identity as the primary security perimeter model?",
+      "answer": [
+        "Software as a service (SaaS) applications for business-critical workloads can be hosted outside of a corporate network.",
+        "Bring your own device (BYOD) can be used to complete corporate tasks."
+      ]
+    },
+    {
+      "question": "What is a feature of single sign-on (SSO)?",
+      "answer": "Uses one credential to access multiple applications or resources."
+    },
+    {
+      "question": "What is a characteristic of federation?",
+      "answer": "Federation enables access to services across organizations."
+    },
+    {
+      "question": "What are types of distributed denial-of-service (DDoS) attacks?",
+      "answer": "Resource layer attacks, protocol attacks, and volumetric attacks."
+    },
+    {
+      "question": "Which Azure feature provides network-level filtering, application-level filtering, and outbound SNAT?",
+      "answer": "Azure Firewall"
+    },
+    {
+      "question": "What Azure feature provides application-level filtering and SSL termination?",
+      "answer": "Azure Web Application Firewall (WAF)"
+    },
+    {
+      "question": "What can you use in Azure to implement network segmentation based on departments?",
+      "answer": "Virtual Networks"
+    },
+    {
+      "question": "What can you use to connect to Azure virtual machines remotely over RDP and SSH from the Azure portal?",
+      "answer": "Azure Bastion"
+    },
+    {
+      "question": "In which order will the NSG rules be processed?",
+      "answer": [
+        "AllowVNetInBound",
+        "AllowAzureLoadBalancerInBound",
+        "DenyAllInBound"
+      ]
+    },
+    {
+      "question": "Which service enables you to continually assess the security posture, identify threats, and harden resources in Azure and on-premises workloads?",
+      "answer": "Microsoft Defender for Cloud"
+    },
+    {
+      "question": "What can you use to manage security for a multi-cloud environment that includes Amazon Web Services (AWS) and Google Cloud Platform (GCP)?",
+      "answer": "Microsoft Defender for Cloud"
+    },
+    {
+      "question": "In Microsoft Purview, what can you use to label items as regulatory records, maintain proof of item deletion, and export information about disposed items?",
+      "answer": "A retention label and a retention label policy."
+    },
+    {
+      "question": "Which encryption method uses the same key to encrypt and decrypt data?",
+      "answer": "Symmetric Encryption"
+    },
+    {
+      "question": "Which encryption method uses a public key and private key pair?",
+      "answer": "Asymmetric Encryption"
+    },
+    {
+      "question": "Which type of identity should you use to allow Azure virtual machines to access Azure Storage without having to handle password changes manually?",
+      "answer": "Managed Identity"
+    },
+    {
+      "question": "What can be used to sync identities between Active Directory Domain Services (AD DS) and Microsoft Entra tenant?",
+      "answer": "Microsoft Entra Connect"
+    },
+    {
+      "question": "Which Microsoft Defender for Endpoint feature regulates access to malicious IP addresses, domains, and URLs?",
+      "answer": "Attack Surface Reduction (ASR)"
+    },
+    {
+      "question": "What can you use to aggregate security alerts into incidents and to create automated responses to security alerts?",
+      "answer": "Microsoft Sentinel"
+    },
+    {
+      "question": "What can you use in Microsoft Sentinel to create visual reports?",
+      "answer": "Workbooks"
+    },
+    {
+      "question": "What is a capability of Active Directory Domain Services (AD DS)?",
+      "answer": "Manages on-premises systems by using a single identity per user."
+    },
+    {
+      "question": "What should you use in Microsoft Purview to prevent the inadvertent disclosure of sensitive information shared in Microsoft Teams?",
+      "answer": "Microsoft Purview data loss prevention (DLP) policies."
+    },
+    {
+      "question": "Which policy in Microsoft Purview allows you to prevent documents containing personal identification from being shared outside your organization?",
+      "answer": "Data Loss Prevention (DLP) policy."
+    },
+    {
+      "question": "What should you create in Microsoft Purview to automatically encrypt documents marked by users as sensitive?",
+      "answer": "A sensitivity label and a sensitivity label policy."
+    },
+    {
+      "question": "What can you use in Microsoft Purview to scan for offensive language across an organization?",
+      "answer": "Communication compliance."
+    },
+    {
+      "question": "In Microsoft Purview insider risk management, what should you create for alerts that require further investigation?",
+      "answer": "A case."
+    },
+    {
+      "question": "Which two forms of authentication are available in Microsoft Entra ID for multi-factor authentication (MFA) from any device?",
+      "answer": [
+        "Microsoft Authenticator app",
+        "Voice Call"
+      ]
+    },
+    {
+      "question": "Which Microsoft Entra feature allows you to authenticate users by using an on-premises Active Directory domain without needing to connect to on-premises domain controllers?",
+      "answer": "Password hash synchronization."
+    },
+    {
+      "question": "What condition can you use in a Conditional Access policy to evaluate the likelihood that a user account was compromised?",
+      "answer": "User risk."
+    },
+    {
+      "question": "What should you use in Microsoft Entra to provide users with the ability to perform administrative tasks?",
+      "answer": "Roles."
+    },
+    {
+      "question": "Which two signals can be used as part of Conditional Access in Microsoft Entra?",
+      "answer": [
+        "Group membership",
+        "Device platform"
+      ]
+    },
+    {
+      "question": "What is a user risk in Microsoft Entra ID Protection?",
+      "answer": "Leaked credentials."
+    },
+    {
+      "question": "What can help mitigate the impact of compromised user accounts in Microsoft Entra?",
+      "answer": "Microsoft Entra ID Protection."
+    },
+    {
+      "question": "What is the least privileged Microsoft Entra role that can be used to create and manage users and groups?",
+      "answer": "User Administrator."
+    },
+    {
+      "question": "What should you use in Microsoft Purview to label items as regulatory records, maintain proof of item deletion, and export information about disposed items?",
+      "answer": "A retention label and a retention label policy."
+    },
+    {
+      "question": "Which encryption method uses a time-based, one-time password for authentication?",
+      "answer": "OATH hardware tokens."
+    },
+    {
+      "question": "Which authentication methods are available for self-service password reset (SSPR) in Microsoft Entra ID?",
+      "answer": [
+        "Security questions",
+        "Email"
+      ]
+    },
+    {
+      "question": "What should you use to enforce multi-factor authentication (MFA) when users access an application registered in Microsoft Entra tenant?",
+      "answer": "Conditional Access."
+    },
+    {
+      "question": "Which two signals can be used in Conditional Access policies?",
+      "answer": [
+        "Group membership",
+        "Device platform"
+      ]
+    },
+    {
+      "question": "What is the least privileged role in Microsoft Entra that can create and manage users and groups?",
+      "answer": "User Administrator."
+    },
+    {
+      "question": "What condition can be used to evaluate whether user credentials have been compromised in Microsoft Entra?",
+      "answer": "Leaked credentials."
+    },
+    {
+      "question": "Which service can help mitigate the impact of compromised user accounts in Microsoft Entra?",
+      "answer": "Microsoft Entra ID Protection."
+    },
+    {
+      "question": "Where can you find tools and resources about Microsoft security, privacy, and compliance practices?",
+      "answer": "Microsoft Service Trust Portal."
+    },
+    {
+      "question": "What does the compliance score in Microsoft Compliance Manager measure?",
+      "answer": "An organization’s progress toward implementing controls."
+    },
+    {
+      "question": "What type of controls are used for Microsoft cloud services in Microsoft Compliance Manager?",
+      "answer": "Microsoft-managed controls."
+    },
+    {
+      "question": "What can you create in Microsoft Purview to label items as regulatory records and maintain proof of item deletion?",
+      "answer": "A retention label and a retention label policy."
+    },
+    {
+      "question": "What should you use to classify, protect, and govern data in Microsoft Purview?",
+      "answer": "Microsoft Purview Information Protection and Data Lifecycle Management."
+    },
+    {
+      "question": "What policy can you use to prevent the inadvertent sharing of sensitive information in Microsoft Teams?",
+      "answer": "Data Loss Prevention (DLP) policy."
+    },
+    {
+      "question": "Which policy can you use to prevent users from sharing files with other departments in Microsoft Purview?",
+      "answer": "Information barrier policy."
+    },
+    {
+      "question": "Which policy scans for offensive language across an organization in Microsoft Purview?",
+      "answer": "Communication compliance policy."
+    },
+    {
+      "question": "In Microsoft Purview Insider Risk Management, what should you create for alerts that require further investigation?",
+      "answer": "A case."
+    },
+    {
+      "question": "Which feature is available only in the Premium edition of eDiscovery for Microsoft Purview?",
+      "answer": "Assigning custodians."
+    },
+    {
+      "question": "In Microsoft Purview, what can be used to investigate possible security or compliance breaches?",
+      "answer": "Audit (Premium)."
+    },
+    {
+      "question": "What should you use to identify invoice numbers in data from your organization in Microsoft Purview?",
+      "answer": "Sensitive info types."
+    },
+    {
+      "question": "What encryption method uses the same key to encrypt and decrypt data?",
+      "answer": "Symmetric encryption."
+    },
+    {
+      "question": "What encryption method uses a public key and private key pair?",
+      "answer": "Asymmetric encryption."
+    },
+    {
+      "question": "What type of identity allows Azure virtual machines to access Azure Storage without handling password changes manually?",
+      "answer": "Managed identity."
+    },
+    {
+      "question": "Which feature of Microsoft Entra ID provides protection against attacks using commonly used passwords?",
+      "answer": "Microsoft Entra Password Protection."
+    },
+    {
+      "question": "Which two services can you extend Microsoft Defender for Cloud to by obtaining Defender plans?",
+      "answer": [
+        "Azure App Service",
+        "Azure Storage"
+      ]
+    },
+    {
+      "question": "Which two industry frameworks are used in the Azure Security Benchmark?",
+      "answer": [
+        "Center for Internet Security (CIS)",
+        "National Institute of Standards and Technology (NIST)"
+      ]
+    },
+    {
+      "question": "Which two features are part of Microsoft Defender for Cloud's enhanced security?",
+      "answer": [
+        "Endpoint detection and response (EDR)",
+        "Vulnerability scanning for SQL resources"
+      ]
+    },
+    {
+      "question": "What two characteristics define a security information and event management (SIEM) solution?",
+      "answer": [
+        "Collection of data from IT estate",
+        "Correlation of data"
+      ]
+    },
+    {
+      "question": "What can aggregate security alerts into incidents and create automated responses in Microsoft Sentinel?",
+      "answer": "Microsoft Sentinel."
+    },
+    {
+      "question": "What regulates access to malicious IP addresses, domains, and URLs in Microsoft Defender for Endpoint?",
+      "answer": "Attack Surface Reduction (ASR)."
+    },
+    {
+      "question": "Which solution safeguards against malicious email threats in Microsoft Defender for Office 365?",
+      "answer": "Microsoft Defender for Office 365."
+    },
+    {
+      "question": "Which Microsoft solution helps meet compliance standards for GDPR and PCI?",
+      "answer": "Microsoft Defender for Cloud Apps."
+    },
+    {
+      "question": "Which three components can be protected by using Microsoft Defender?",
+      "answer": [
+        "Identity",
+        "Endpoints",
+        "Applications"
+      ]
+    },
+    {
+      "question": "What defines the use and management of encryption keys in Microsoft’s privacy principles?",
+      "answer": "Security."
+    },
+    {
+      "question": "Which three roles have permission to sign in to the Microsoft Purview compliance portal?",
+      "answer": [
+        "Global Administrator",
+        "Compliance Administrator",
+        "Compliance Data Administrator"
+      ]
+    },
+    {
+      "question": "Which security model uses a layered approach to security, providing mechanisms to stop a breach at the perimeter of each layer?",
+      "answer": "Defense in depth."
+    },
+    {
+      "question": "What is a guiding principle of the Zero Trust model?",
+      "answer": "Verify explicitly."
+    },
+    {
+      "question": "You need to allow external users to use shared resources hosted in your Azure subscription. What is the minimum edition of Microsoft Entra ID you can use?",
+      "answer": "Microsoft Entra ID P1."
+    },
+    {
+      "question": "Which authentication method can use a time-based, one-time password?",
+      "answer": "OATH hardware tokens."
+    },
+    {
+      "question": "What can you use to prevent users from using an organization’s name or the names of the organization’s products as passwords in Microsoft Entra ID?",
+      "answer": "Microsoft Entra Password Protection."
+    },
+    {
+      "question": "Which two authentication methods are available in Microsoft Entra during sign in?",
+      "answer": [
+        "Password",
+        "SMS-based authentication."
+      ]
+    },
+    {
+      "question": "Which condition can you use in a Conditional Access policy to evaluate the likelihood that a user account was compromised?",
+      "answer": "User risk."
+    },
+    {
+      "question": "What feature in Microsoft Defender for Cloud Apps is used to retrieve data from activity logs?",
+      "answer": "App connectors."
+    },
+    {
+      "question": "Which Microsoft Defender 365 solution safeguards against malicious email threats?",
+      "answer": "Microsoft Defender for Office 365."
+    },
+    {
+      "question": "In Microsoft Purview, what should you create to automatically encrypt documents marked by users as sensitive?",
+      "answer": "A sensitivity label and a sensitivity label policy."
+    },
+    {
+      "question": "Which type of policy allows you to prevent documents that contain personal identification from being shared outside your organization?",
+      "answer": "Data loss prevention (DLP) policy."
+    },
+    {
+      "question": "What can you use to prevent the inadvertent disclosure of sensitive information shared in Microsoft Teams?",
+      "answer": "Microsoft Purview data loss prevention (DLP) policies."
+    },
+    {
+      "question": "Which feature is only available in the Premium edition of eDiscovery for Microsoft Purview?",
+      "answer": "Assigning custodians."
+    },
+    {
+      "question": "What is the minimum edition of Microsoft Entra ID that you can use to avoid charges for the first 50,000 Monthly Active Users (MAU)?",
+      "answer": "Microsoft Entra ID P1"
+    },
+    {
+      "question": "Which service enables Microsoft Entra to authenticate external users by using their social identities, such as Google or Apple IDs?",
+      "answer": "Microsoft Entra External ID"
+    },
+    {
+      "question": "What is the minimum edition of Microsoft Entra that allows you to create access packages for users?",
+      "answer": "Microsoft Entra ID P2"
+    },
+    {
+      "question": "Which two additional forms of authentication are available in Microsoft Entra ID for multi-factor authentication (MFA) from any device?",
+      "answer": [
+        "Microsoft Authenticator app",
+        "Voice Call"
+      ]
+    },
+    {
+      "question": "Which two services can you extend Microsoft Defender for Cloud by obtaining Defender plans?",
+      "answer": [
+        "Azure App Service",
+        "Azure Storage"
+      ]
+    },
+    {
+      "question": "Which Microsoft Purview feature helps you manage regulatory records and proof of item deletion?",
+      "answer": "A retention label and a retention label policy"
+    },
+    {
+      "question": "Which Azure service provides centralized protection of web apps from common exploits and vulnerabilities?",
+      "answer": "Azure Web Application Firewall (WAF)"
+    },
+    {
+      "question": "Which two industry frameworks are used in the Azure Security Benchmark? Each correct answer presents a complete solution.",
+      "answer": [
+        "Center for Internet Security (CIS)",
+        "National Institute of Standards and Technology (NIST)"
+      ]
+    },
+    {
+      "question": "Which two features are part of Microsoft Defender for Clouds enhanced security? Each correct answer presents a complete solution.",
+      "answer": [
+        "endpoint detection and response (EDR)",
+        "vulnerability scanning for SQL resources"
+      ]
+    },
+    {
+      "question": "Which two types of security systems make up Microsoft Sentinel? Each correct answer presents part of the solution.",
+      "answer": [
+        "security orchestration automated response (SOAR)",
+        "security information and event management (SIEM)"
+      ]
+    },
+    {
+      "question": "In Microsoft Sentinel, an incident is a group of related:",
+      "answer": "alerts"
+    },
+    {
+      "question": "Which components can be protected by using Microsoft 365 Defender?",
+      "answer": [
+        "endpoints",
+        "identities",
+        "email",
+        "applications"
+      ]
+    },
+    {
+      "question": "Which three components are protected by using Microsoft Defender?",
+      "answer": [
+        "identity",
+        "endpoints",
+        "applications"
+      ]
+    },
+    {
+      "question": "Where can you find independent audit reports and assessments of Microsoft cloud services?",
+      "answer": "Microsoft Service Trust Portal"
+    },
+    {
+      "question": "Where can you find information, tools, and other resources about Microsoft security, privacy, and compliance practices?",
+      "answer": "the Microsoft Service Trust Portal"
+    },
+    {
+      "question": "What are the three types of controls used in Microsoft Purview Compliance Manager? Each correct answer presents part of the solution.",
+      "answer": [
+        "Microsoft-managed controls",
+        "shared controls",
+        "customer-managed controls"
+      ]
+    },
+    {
+      "question": "Which three roles have permission to sign in to the Microsoft Purview compliance portal? Each correct answer presents a complete solution.",
+      "answer": [
+        "Global Administrator",
+        "Compliance Administrator",
+        "Compliance Data Administrator"
+      ]
+    },
+    {
+      "question": "In Microsoft Purview, what should you use to identify invoice numbers in data from your organization?",
+      "answer": "sensitive info types"
+    },
+    {
+      "question": "In Microsoft Purview, which type of policy allows you to prevent documents that contain personal identification from being shared outside your organization?",
+      "answer": "data loss prevention (DLP) policy"
+    },
+    {
+      "question": "Microsoft Purview information protection and data lifecycle management work together to [answer] data.",
+      "answer": "classify, protect, and govern"
+    },
+    {
+      "question": "What can be used to set up a unified data governance service that enables end-to-end data lineage?",
+      "answer": "Microsoft Purview"
+    },
+    {
+      "question": "In Microsoft Purview, what can you use to scan for offensive language across an organization?",
+      "answer": "communication compliance"
+    },
+    {
+      "question": "Which two types of communications can Microsoft Purview communication compliance monitor? Each correct answer presents part of the solution.",
+      "answer": [
+        "messages in Microsoft Teams",
+        "emails in Microsoft Exchange Online"
+      ]
+    },
+    {
+      "question": "In Microsoft Purview, what can be used to investigate possible security or compliance breaches and identify their scope based on records?",
+      "answer": "Audit (Premium)"
+    },
+    {
+      "question": "Which statement accurately describes Azure Policy?",
+      "answer": "Azure Policy is designed to help enforce standards and assess compliance across an organization."
+    },
+    {
+      "question": "What is the minimum edition of Microsoft Entra ID needed to use Microsoft Entra Privilege Identity Management (PIM)?",
+      "answer": "Microsoft Entra ID P2"
+    },
+    {
+      "question": "You need to allow external users to use shared resources hosted in your Azure subscription. You plan to use monthly active users (MAU) billing. You need to ensure that you are not charged for the first 50,000 MAUs per month. What is the minimum edition of Microsoft Entra ID that you can use?",
+      "answer": "Microsoft Entra ID P1"
+    },
+    {
+      "question": "Which two authentication methods are available for self-service password reset (SSPR) in Microsoft Entra ID? Each correct answer presents a complete solution.",
+      "answer": [
+        "email",
+        "security questions"
+      ]
+    },
+    {
+      "question": "What are three things that a user can use for Microsoft Entra Multi-Factor Authentication (MFA)? Each correct answer presents a complete solution.",
+      "answer": [
+        "something the claimant knows",
+        "something the claimant has",
+        "something the claimant is"
+      ]
+    },
+    {
+      "question": "Which three actions should be performed to enable self-service password reset (SSPR) for a user? Each correct answer presents part of the solution.",
+      "answer": [
+        "Assign a Microsoft Entra ID license.",
+        "Enable SSPR for the user.",
+        "Register an authentication method."
+      ]
+    },
+    {
+      "question": "What can be used to enforce multi-factor authentication (MFA) when users access an application registered in Microsoft Entra tenant?",
+      "answer": "Conditional Access"
+    },
+    {
+      "question": "Which two signals can be used as part of Conditional Access? Each correct answer presents part of the solution.",
+      "answer": [
+        "group membership",
+        "device platform"
+      ]
+    },
+    {
+      "question": "What can you use to receive alerts for potentially compromised user accounts without blocking the users from signing in?",
+      "answer": "User risk"
+    },
+    {
+      "question": "What is the difference between Microsoft Entra role-based access control (RBAC) and Azure RBAC?",
+      "answer": "Microsoft Entra roles control access to resources such as users, groups, and applications. Azure roles control access to resources, such as virtual machines."
+    },
+    {
+      "question": "Which service can help mitigate the impact of compromised user accounts?",
+      "answer": "Microsoft Entra ID Protection"
+    },
+    {
+      "question": "Which three features reduce the chance of a malicious user accessing a sensitive resource or an authorized user inadvertently affecting a sensitive resource? Each correct answer presents a complete solution.",
+      "answer": [
+        "Microsoft Entra ID Protection",
+        "Microsoft Entra Privileged Identity Management",
+        "role-based access control (RBAC)"
+      ]
+    },
+    {
+      "question": "Which identity provider allows you to use software as a service (SaaS) and platform as a service (PaaS) in Azure with the least administrative effort?",
+      "answer": "Microsoft Entra ID"
+    },
+    {
+      "question": "What is a benefit of single sign-on (SSO) compared to other authentication methods?",
+      "answer": "Users can authenticate once and access resources anywhere."
+    },
+    {
+      "question": "What are two characteristics of an identity as the primary security perimeter model? Each correct answer presents a complete solution.",
+      "answer": [
+        "Software as a service (SaaS) applications for business-critical workloads can be hosted outside of a corporate network.",
+        "Bring your own device (BYOD) can be used to complete corporate tasks."
+      ]
+    }
+  ]
+}
