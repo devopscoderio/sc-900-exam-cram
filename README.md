@@ -905,3 +905,130 @@ This repository contains flashcards for the SC 900 Microsoft Security, Complianc
 
 </details>
 
+<details>
+  <summary>124. Which Microsoft privacy principle defines the use and management of encryption keys?</summary>
+
+  - security
+
+</details>
+
+<details>
+  <summary>125. What can you use to monitor communications that contain sensitive information and minimize the exposed risk?</summary>
+
+  - the Microsoft Purview compliance portal
+
+</details>
+
+<details>
+  <summary>126. Which type of Compliance Manager controls are used for Microsoft cloud services?</summary>
+
+  - Microsoft-managed controls
+
+</details>
+
+<details>
+  <summary>127. In Microsoft Purview, what can you use to detect potential leaks of sensitive data and theft of intellectual property?</summary>
+
+  - insider risk management
+
+</details>
+
+<details>
+  <summary>128. What can help you to identify documents needed for a compliance audit?</summary>
+
+  - Microsoft Purview eDiscovery
+
+</details>
+
+<details>
+  <summary>129. To implement network segmentation in Azure, you must create?</summary>
+
+  - virtual networks
+
+</details>
+
+<details>
+  <summary>130. You have the following inbound network security group (NSG) security rules in Azure:
+AllowVNetInBound with a priority of 65000
+AllowAzureLoadBalancerInBound with a priority of 65001
+DenyAllInBound with a priority of 65500
+No other inbound rules were defined for the NSG.
+In which order will the rules be processed?</summary>
+
+  - The AllowVNetInBound rule is processed first. The AllowAzureLoadBalancerInBound rule is processed second. The last rule that will be processed in the NSG, is the DenyAllInBound rule.
+
+</details>
+
+<details>
+  <summary>131. Which feature is only available in Microsoft Defender for Office 365 Plan 2?</summary>
+
+  - Attack Simulator
+
+</details>
+
+<details>
+  <summary>132. Which feature in Microsoft Defender for Cloud Apps is used to retrieve data from activity logs?</summary>
+
+  - App connectors
+
+</details>
+
+<details>
+  <summary>133. Which Microsoft solution allows you to meet compliance standards for General Data Protection Regulation (GDPR) and Payment Card Industry (PCI)?</summary>
+
+  - Microsoft Defender for Cloud Apps
+
+</details>
+
+<details>
+  <summary>134. What are the four pillars of a Cloud Access Security Broker (CASB)?</summary>
+
+  - visibility
+  - compliance
+  - data security
+  - threat protection
+
+</details>
+
+<details>
+  <summary>135. What functionality is provided by Microsoft Entra ID?</summary>
+
+  - single sign on (SSO) for users
+
+</details>
+
+<details>
+  <summary>136. An organization is migrating to the Microsoft cloud. The plan is to use a hybrid identity model. What can be used to sync identities between Active Directory Domain Services (AD DS) and Microsoft Entra tenant?</summary>
+
+  - Microsoft Entra Connect
+
+</details>
+
+<details>
+  <summary>137. Which two additional forms of authentication are available in Microsoft Entra ID for multi-factor authentication (MFA) from any device? Each correct answer presents a complete solution.</summary>
+
+  - the Microsoft Authenticator app
+  - voice call
+
+</details>
+
+<details>
+  <summary>138. Based on a Microsoft Azure Security Score recommendation, an administrator decides to improve identity security within an organization. What provides the greatest protection to user identities?</summary>
+
+  - using the Microsoft Authenticator app
+
+</details>
+
+<details>
+  <summary>139. A malicious user is attempting to access many user accounts by using commonly used passwords. The user repeats the action every 20 minutes to avoid triggering an account lockout. Which Microsoft Entra feature can protect organizations from such attacks?</summary>
+
+  - Microsoft Entra Password Protection
+
+</details>
+
+<details>
+  <summary>140. In the shared security model, which responsibilities are retained by customers when hosting infrastructure as a service (IaaS) virtual machines?</summary>
+
+  - operating system
+
+</details>

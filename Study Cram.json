@@ -592,6 +592,112 @@
         "Software as a service (SaaS) applications for business-critical workloads can be hosted outside of a corporate network.",
         "Bring your own device (BYOD) can be used to complete corporate tasks."
       ]
+    },
+        {
+      "question": "Which Microsoft privacy principle defines the use and management of encryption keys?",
+      "answer": [
+        "security"
+      ]
+    },
+    {
+      "question": "What can you use to monitor communications that contain sensitive information and minimize the exposed risk?",
+      "answer": [
+        "the Microsoft Purview compliance portal"
+      ]
+    },
+    {
+      "question": "Which type of Compliance Manager controls are used for Microsoft cloud services?",
+      "answer": [
+        "Microsoft-managed controls"
+      ]
+    },
+    {
+      "question": "In Microsoft Purview, what can you use to detect potential leaks of sensitive data and theft of intellectual property?",
+      "answer": [
+        "insider risk management"
+      ]
+    },
+    {
+      "question": "What can help you to identify documents needed for a compliance audit?",
+      "answer": [
+        "Microsoft Purview eDiscovery"
+      ]
+    },
+    {
+      "question": "To implement network segmentation in Azure, you must create?",
+      "answer": [
+        "virtual networks"
+      ]
+    },
+    {
+      "question": "You have the following inbound network security group (NSG) security rules in Azure:\nAllowVNetInBound with a priority of 65000\nAllowAzureLoadBalancerInBound with a priority of 65001\nDenyAllInBound with a priority of 65500\nNo other inbound rules were defined for the NSG.\nIn which order will the rules be processed?",
+      "answer": [
+        "The AllowVNetInBound rule is processed first. The AllowAzureLoadBalancerInBound rule is processed second. The last rule that will be processed in the NSG, is the DenyAllInBound rule."
+      ]
+    },
+    {
+      "question": "Which feature is only available in Microsoft Defender for Office 365 Plan 2?",
+      "answer": [
+        "Attack Simulator"
+      ]
+    },
+    {
+      "question": "Which feature in Microsoft Defender for Cloud Apps is used to retrieve data from activity logs?",
+      "answer": [
+        "App connectors"
+      ]
+    },
+    {
+      "question": "Which Microsoft solution allows you to meet compliance standards for General Data Protection Regulation (GDPR) and Payment Card Industry (PCI)?",
+      "answer": [
+        "Microsoft Defender for Cloud Apps"
+      ]
+    },
+    {
+      "question": "What are the four pillars of a Cloud Access Security Broker (CASB)?",
+      "answer": [
+        "visibility",
+        "compliance",
+        "data security",
+        "threat protection"
+      ]
+    },
+    {
+      "question": "What functionality is provided by Microsoft Entra ID?",
+      "answer": [
+        "single sign on (SSO) for users"
+      ]
+    },
+        {
+      "question": "An organization is migrating to the Microsoft cloud. The plan is to use a hybrid identity model. What can be used to sync identities between Active Directory Domain Services (AD DS) and Microsoft Entra tenant?",
+      "answer": [
+        "Microsoft Entra Connect"
+      ]
+    },
+    {
+      "question": "Which two additional forms of authentication are available in Microsoft Entra ID for multi-factor authentication (MFA) from any device? Each correct answer presents a complete solution.",
+      "answer": [
+        "the Microsoft Authenticator app",
+        "voice call"
+      ]
+    },
+    {
+      "question": "Based on a Microsoft Azure Security Score recommendation, an administrator decides to improve identity security within an organization. What provides the greatest protection to user identities?",
+      "answer": [
+        "using the Microsoft Authenticator app"
+      ]
+    },
+    {
+      "question": "A malicious user is attempting to access many user accounts by using commonly used passwords. The user repeats the action every 20 minutes to avoid triggering an account lockout. Which Microsoft Entra feature can protect organizations from such attacks?",
+      "answer": [
+        "Microsoft Entra Password Protection"
+      ]
+    },
+    {
+      "question": "In the shared security model, which responsibilities are retained by customers when hosting infrastructure as a service (IaaS) virtual machines?",
+      "answer": [
+        "operating system"
+      ]
     }
   ]
 }
