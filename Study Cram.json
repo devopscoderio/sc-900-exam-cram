@@ -593,7 +593,7 @@
         "Bring your own device (BYOD) can be used to complete corporate tasks."
       ]
     },
-        {
+    {
       "question": "Which Microsoft privacy principle defines the use and management of encryption keys?",
       "answer": [
         "security"
@@ -668,7 +668,7 @@
         "single sign on (SSO) for users"
       ]
     },
-        {
+    {
       "question": "An organization is migrating to the Microsoft cloud. The plan is to use a hybrid identity model. What can be used to sync identities between Active Directory Domain Services (AD DS) and Microsoft Entra tenant?",
       "answer": [
         "Microsoft Entra Connect"
@@ -698,6 +698,24 @@
       "answer": [
         "operating system"
       ]
+    },
+    {
+      "question": "Where can you access and review sensitive files from a snapshot of the scanned items?",
+      "answer": [
+        "the Microsoft Purview compliance portal"
+      ]
+    },
+    {
+      "question": "Which security model assumes that everything is an open and untrusted network?",
+      "answer": "Zero Trust"
+    },
+    {
+      "question": "Which functionality is provided by Microsoft Entra ID?",
+      "answer": "Single sign-on (SSO) for users."
+    },
+    {
+      "question": "Which type of Microsoft identity is used for identifying an application?",
+      "answer": "Service principal"
     }
   ]
 }

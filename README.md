@@ -1,5 +1,5 @@
 # SC-900 Flashcards
-<meta name="description" content="SC-900 Microsoft Security, Compliance, and Identity exam flashcards. Study questions and answers to help you prepare for the SC-900 certification exam.">
+
 This repository contains flashcards for the SC 900 Microsoft Security, Compliance, and Identity Fundamentals exam. Each question is numbered, and you can click to reveal the answer.
 
 ## Questions
@@ -1032,3 +1032,32 @@ In which order will the rules be processed?</summary>
   - operating system
 
 </details>
+
+<details>
+  <summary>141. Where can you access and review sensitive files from a snapshot of the scanned items?</summary>
+
+  - the Microsoft Purview compliance portal
+
+</details>
+
+<details>
+  <summary>142. Which security model assumes that everything is an open and untrusted network?</summary>
+
+  - Zero Trust
+
+</details>
+
+<details>
+  <summary>143. Which functionality is provided by Microsoft Entra ID?</summary>
+
+  - Single sign-on (SSO) for users.
+
+</details>
+
+<details>
+  <summary>144. Which type of Microsoft identity is used for identifying an application?</summary>
+
+  - Service principal
+
+</details>
+
